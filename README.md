@@ -20,3 +20,4 @@ THEN I can save my initials and score</br>
 
 <img width="1266" alt="Screen Shot 2022-07-09 at 12 06 45 AM" src="https://user-images.githubusercontent.com/106551994/178090999-f062f7ea-7e59-40ea-abc1-152654eab978.png">
 
+URL: https://sramk87.github.io/timed-quiz/
