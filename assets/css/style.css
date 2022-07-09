@@ -36,18 +36,33 @@ body {
     background-color: #fff; 
 }
 
-.btn-right {
+.btn.correct {
     background-color: green;
 }
 
-.btn-wrong {
+.btn.wrong {
     background-color: red;
 }
 
 .controls {
     display: flex;
+    justify-content: center;
 }
 
-.hidden {
+.hide {
     display: none;
+}
+
+form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input {
+    margin-bottom: 1rem;
+    width: 20rem;
+    padding: 1.5rem;
+    font-size: 1.8rem;
 }

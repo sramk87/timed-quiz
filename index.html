@@ -9,6 +9,8 @@
         <title>JavaScript Quiz</title>
     </head>
     <body>
+        <body onload="setTimeout(Timer,60000)">
+            <div id="count">-</div>
         <div class="container">
             <div id="question-container" class="hide">
                 <div id="question">Question</div>
@@ -17,7 +19,6 @@
                     <button class="btn">2</button>
                     <button class="btn">3</button>
                     <button class="btn">4</button>
-
                 </div>
             </div>
                 <div class="controls">
@@ -25,5 +26,6 @@
                     <button id="next-btn" class="next-btn btn hide">Next</button>
             </div>
         </div>
+        </body>
     </body>
     </html>

@@ -23,7 +23,6 @@ function startGame() {
 function nextQuestion() {
     resetState()
     showQuestion(shuffledQuestions[currentQuestionIndex])
-
 }
 
 function showQuestion(question) {
@@ -48,6 +47,15 @@ function resetState() {
     }
 }
 
+var count = 60;
+var interval = setInterval(function(){
+  document.getElementById('count').innerHTML=count;
+  count--;
+  if (count === 0){
+    clearInterval(interval);
+    alert("You're out of time!");
+  }
+}, 1000);
 
 function chooseAnswer(e) {
     const selectedBtn = e.target
@@ -88,6 +96,7 @@ const questions = [
         {text: '<javascript>', correct: false}
         ]
     },
+
     {
     question: 'Which of these are JavaScript data types?',
     answers: [ 
